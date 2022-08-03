@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure & Tour</title>
+
+    <!-- link font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">
+            <i class="logo-icon fas fa-hiking"></i>
+            Travel.
+        </a>
+
+        <nav class="navbar">
+            <div class="close-menu__icon fas fa-times"></div>
+            <a href="#home-slide" class="navbar__link navbar__home">Home</a>
+            <a href="#about" class="navbar__link navbar__about">About</a>
+            <a href="#shop" class="navbar__link navbar__shop">Shop</a>
+            <a href="#package" class="navbar__link navbar__package">Package</a>
+            <a href="#review" class="navbar__link navbar__review">Review</a>
+            <a href="#posts" class="navbar__link navbar__blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-bar" class="menu-icon icon-item fas fa-bars"></div>
+            <i class="shopping-icon icon-item fas fa-shopping-cart"></i>
+            <i class="search-icon icon-item fas fa-search"></i>
+        </div>
+
+        <!-- search show -->
+        <div class="search-form">
+            <div id="close-icon" class="fas fa-times"></div>
+
+            <form class="search-body">
+                <input id="search-box" type="text" class="search-input" placeholder="Search here...">
+                <label for="search-box" class="search-icon fas fa-search"></label>
+            </form>
+        </div>
+    </header>
+
+<!-- HOME start -->
+    <!-- Slide start-->
+    <section class="home" id="home">
+        <div class="home-slide swiper mySwiper" id="home-slide">
+            <div class="warpper swiper-wrapper">
+                <div class="slide swiper-slide">
+                    <div class="box" style="background: url(images/home-bg-1.jpg) no-repeat;">
+                        <div class="content">
+                            <span>never stop</span>
+                            <h3>exploring</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                            <a href="#" class="btn">get started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide swiper-slide">
+                    <div class="box second" style="background: url(images/home-bg-2.jpg) no-repeat;">
+                        <div class="content">
+                            <span>make tour</span>
+                            <h3>amazing</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                            <a href="#" class="btn">get started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide swiper-slide">
+                    <div class="box" style="background: url(images/home-bg-3.jpg) no-repeat;">
+                        <div class="content">
+                            <span>explore the</span>
+                            <h3>new world</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                            <a href="#" class="btn">get started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <!-- slide end -->
+
+    <!-- category section start -->
+    <section class="category" id="category">
+        <h1 class="home__heading">adventure idea!</h1>
+        <div class="category__body">
+            <div class="category__item">
+                <img src="./images/category-1.jpg" alt="" class="category__item-avatar">
+                <h2 class="category__item-name">bungee jump</h2>
+                <p class="category__item-content">Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Laborum, Id.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="category__item">
+                <img src="./images/category-2.jpg" alt="" class="category__item-avatar">
+                <h2 class="category__item-name">zip lines</h2>
+                <p class="category__item-content">Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Laborum, Id.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="category__item">
+                <img src="./images/category-3.jpg" alt="" class="category__item-avatar">
+                <h2 class="category__item-name">canoeing</h2>
+                <p class="category__item-content">Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Laborum, Id.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="category__item">
+                <img src="./images/category-4.jpg" alt="" class="category__item-avatar">
+                <h2 class="category__item-name">kayaking</h2>
+                <p class="category__item-content">Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Laborum, Id.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!-- category section end -->
+
+    <!-- About section start -->
+    <section class="about" id="about"> 
+        <div class="about__image">
+            <img src="./images/about-img.jpg" alt="">
+        </div>
+
+        <div class="about__content">
+            <h3 class="about__content-title">Memorable Outdoor Experiences</h3>
+            <p class="about__content-text">Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. 
+                Neque Voluptates Corrupti Natus Necessitatibus Beatae Voluptatibus, 
+                Deserunt Quo Soluta Minima Libero Laborum, Corporis Error Esse Vitae 
+                Placeat Blanditiis Reiciendis Vel? Minima.
+            </p>
+            <br>
+            <br>
+            <p class="about__content-text">
+                Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Provident Dicta Doloremque Placeat Porro, 
+                Ipsam Quia At Beatae Atque Odit Iste?
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+    <!-- About section end -->
+
+    <!-- shop section start -->
+    <section class="shop" id="shop">
+        
+        <h1 class="home__heading">Featured Products</h1>
+
+        <div class="product-slider swiper mySwiper">
+
+            <div class="wrapper swiper-wrapper">
+
+                <div class="shop__slide swiper-slide">
+                    <div class="slide__image">
+                        <img src="./images/product-1.jpg" alt="">
+                        <div class="slide__image-icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="slide__content">
+                        <h3>survival kits</h3>
+                        <div class="price">$5.00 - $25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shop__slide swiper-slide">
+                    <div class="slide__image">
+                        <img src="./images/product-2.jpg" alt="">
+                        <div class="slide__image-icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="slide__content">
+                        <h3>survival kits</h3>
+                        <div class="price">$5.00 - $25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shop__slide swiper-slide">
+                    <div class="slide__image">
+                        <img src="./images/product-3.jpg" alt="">
+                        <div class="slide__image-icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="slide__content">
+                        <h3>survival kits</h3>
+                        <div class="price">$5.00 - $25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shop__slide swiper-slide">
+                    <div class="slide__image">
+                        <img src="./images/product-4.jpg" alt="">
+                        <div class="slide__image-icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="slide__content">
+                        <h3>survival kits</h3>
+                        <div class="price">$5.00 - $25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shop__slide swiper-slide">
+                    <div class="slide__image">
+                        <img src="./images/product-5.jpg" alt="">
+                        <div class="slide__image-icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="slide__content">
+                        <h3>survival kits</h3>
+                        <div class="price">$5.00 - $25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shop__slide swiper-slide">
+                    <div class="slide__image">
+                        <img src="./images/product-6.jpg" alt="">
+                        <div class="slide__image-icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="slide__content swiper-slide">
+                        <h3>survival kits</h3>
+                        <div class="price">$5.00 - $25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+         
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <!-- shop section end -->
+
+    <!-- popular packages section start -->
+
+    <section class="package" id="package">
+        <h3 class="home__heading">popular packages</h3>
+
+        <div class="grid__row">
+            <div class="same__item grid__column">
+                <div class="same__item-image">
+                    <img src="./images/img-1.jpg" alt="">
+                </div>
+
+                <div class="same__item-content">
+                    <h3>Featured Tour Package</h3>
+                    <p class = "same-content--text">Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Numquam, Eos.</p>
+                    <p class = "same--price">$250 - $450</p>
+                    <a href="#" class="btn">Explore Now</a>
+                </div>
+            </div>
+
+            <div class="same__item grid__column">
+                <div class="same__item-image">
+                    <img src="./images/img-2.jpg" alt="">
+                </div>
+
+                <div class="same__item-content">
+                    <h3>Featured Tour Package</h3>
+                    <p class = "same-content--text">Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Numquam, Eos.</p>
+                    <p class = "same--price">$250 - $450</p>
+                    <a href="#" class="btn">Explore Now</a>
+                </div>
+            </div>
+
+            <div class="same__item grid__column">
+                <div class="same__item-image">
+                    <img src="./images/img-3.jpg" alt="">
+                </div>
+
+                <div class="same__item-content">
+                    <h3>Featured Tour Package</h3>
+                    <p class = "same-content--text">Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Numquam, Eos.</p>
+                    <p class = "same--price">$250 - $450</p>
+                    <a href="#" class="btn">Explore Now</a>
+                </div>
+            </div>
+
+            <div class="same__item grid__column">
+                <div class="same__item-image">
+                    <img src="./images/img-4.jpg" alt="">
+                </div>
+
+                <div class="same__item-content">
+                    <h3>Featured Tour Package</h3>
+                    <p class = "same-content--text">Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Numquam, Eos.</p>
+                    <p class = "same--price">$250 - $450</p>
+                    <a href="#" class="btn">Explore Now</a>
+                </div>
+            </div>
+
+            <div class="same__item grid__column">
+                <div class="same__item-image">
+                    <img src="./images/img-5.jpg" alt="">
+                </div>
+
+                <div class="same__item-content">
+                    <h3>Featured Tour Package</h3>
+                    <p class = "same-content--text">Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Numquam, Eos.</p>
+                    <p class = "same--price">$250 - $450</p>
+                    <a href="#" class="btn">Explore Now</a>
+                </div>
+            </div>
+
+            <div class="same__item grid__column">
+                <div class="same__item-image">
+                    <img src="./images/img-6.jpg" alt="">
+                </div>
+
+                <div class="same__item-content">
+                    <h3>Featured Tour Package</h3>
+                    <p class = "same-content--text">Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Numquam, Eos.</p>
+                    <p class = "same--price">$250 - $450</p>
+                    <a href="#" class="btn">Explore Now</a>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <!-- popular packages section end -->
+
+    <!-- Client's Reviews section start -->
+    <section class="review" id="review">
+
+        <h3 class="home__heading">Client's Reviews</h3>
+
+        <div class="review-main swiper mySwiper">
+
+            <div class="warpper swiper-wrapper">
+
+                <div class="review__slide swiper-slide">
+                    <p class="review__slide-comment">Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Quia quidem laborum pariatur alias, culpa illum 
+                        quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, 
+                        adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
+                    <div class="review__slide-info">
+                        <img src="./images/pic-1.png" alt="">
+                        <div class="review__slide-name">
+                            <h4>john deo</h4>
+                            <p>designer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review__slide swiper-slide">
+                    <p class="review__slide-comment">Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Quia quidem laborum pariatur alias, culpa illum 
+                        quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, 
+                        adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
+                    <div class="review__slide-info">
+                        <img src="./images/pic-2.png" alt="">
+                        <div class="review__slide-name">
+                            <h4>john deo</h4>
+                            <p>designer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review__slide swiper-slide">
+                    <p class="review__slide-comment">Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Quia quidem laborum pariatur alias, culpa illum 
+                        quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, 
+                        adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
+                    <div class="review__slide-info">
+                        <img src="./images/pic-3.png" alt="">
+                        <div class="review__slide-name">
+                            <h4>john deo</h4>
+                            <p>designer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review__slide swiper-slide">
+                    <p class="review__slide-comment">Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Quia quidem laborum pariatur alias, culpa illum 
+                        quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, 
+                        adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
+                    <div class="review__slide-info">
+                        <img src="./images/pic-4.png" alt="">
+                        <div class="review__slide-name">
+                            <h4>john deo</h4>
+                            <p>designer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review__slide swiper-slide">
+                    <p class="review__slide-comment">Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Quia quidem laborum pariatur alias, culpa illum 
+                        quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, 
+                        adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
+                    <div class="review__slide-info">
+                        <img src="./images/pic-5.png" alt="">
+                        <div class="review__slide-name">
+                            <h4>john deo</h4>
+                            <p>designer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review__slide swiper-slide">
+                    <p class="review__slide-comment">Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Quia quidem laborum pariatur alias, culpa illum 
+                        quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, 
+                        adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
+                    <div class="review__slide-info">
+                        <img src="./images/pic-6.png" alt="">
+                        <div class="review__slide-name">
+                            <h4>john deo</h4>
+                            <p>designer</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Client's Reviews section end -->
+
+    <!-- What We Offer section start -->
+    <section class="offer" id="offer">
+        <h3 class="home__heading">What We Offer</h3>
+
+        <div class="offer-main grid__row">
+            <div class="offer__item same__item grid__column">
+                <div class="same__item-image offer-image">
+                    <img src="./images/serv-1.png" alt="">
+                </div>
+
+                <div class="offer__item-content same__item-content">
+                    <h3>Complete Guide</h3>
+                    <p class = "same-content--text">Lorem ipsum dolor
+                         sit, amet consectetur adipisicing elit. 
+                         Repellendus, nihil?</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="offer__item same__item grid__column">
+                <div class="same__item-image offer-image">
+                    <img src="./images/serv-2.png" alt="">
+                </div>
+
+                <div class="offer__item-content same__item-content">
+                    <h3>Complete Guide</h3>
+                    <p class = "same-content--text">Lorem ipsum dolor
+                         sit, amet consectetur adipisicing elit. 
+                         Repellendus, nihil?</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="offer__item same__item grid__column">
+                <div class="same__item-image offer-image">
+                    <img src="./images/serv-3.png" alt="">
+                </div>
+
+                <div class="offer__item-content same__item-content">
+                    <h3>Complete Guide</h3>
+                    <p class = "same-content--text">Lorem ipsum dolor
+                         sit, amet consectetur adipisicing elit. 
+                         Repellendus, nihil?</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="offer__item same__item grid__column">
+                <div class="same__item-image offer-image">
+                    <img src="./images/serv-4.png" alt="">
+                </div>
+
+                <div class="offer__item-content same__item-content">
+                    <h3>Complete Guide</h3>
+                    <p class = "same-content--text">Lorem ipsum dolor
+                         sit, amet consectetur adipisicing elit. 
+                         Repellendus, nihil?</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="offer__item same__item grid__column">
+                <div class="same__item-image offer-image">
+                    <img src="./images/serv-5.png" alt="">
+                </div>
+
+                <div class="offer__item-content same__item-content">
+                    <h3>Complete Guide</h3>
+                    <p class = "same-content--text">Lorem ipsum dolor
+                         sit, amet consectetur adipisicing elit. 
+                         Repellendus, nihil?</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="offer__item same__item grid__column">
+                <div class="same__item-image offer-image">
+                    <img src="./images/serv-6.png" alt="">
+                </div>
+
+                <div class="offer__item-content same__item-content">
+                    <h3>Complete Guide</h3>
+                    <p class = "same-content--text">Lorem ipsum dolor
+                         sit, amet consectetur adipisicing elit. 
+                         Repellendus, nihil?</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- What We Offer section end -->
+
+    <!-- Our Daily Posts section start -->
+    <section class="posts" id="posts">
+
+        <h3 class="home__heading">Our Daily Posts</h3>
+
+        <div class="posts-main swiper mySwiper">
+
+            <div class="wrapper swiper-wrapper">
+
+                <div class="post__slide swiper-slide">
+                    <div class="post__image">
+                        <img src="./images/img-1.jpg" alt="">
+                        <div class="post__image-other">
+                           <a href="#">
+                                <i class="fas fa-calendar"></i>
+                                21st May, 2021
+                           </a>
+
+                           <a href="#">
+                                <i class="fas fa-user"></i>
+                                By Admin
+                           </a>
+                        </div>
+                    </div>
+                    <div class="post__content same__item-content">
+                        <h3>blog title goes here</h3>
+                        <p class = "same-content--text">Lorem ipsum dolor
+                             sit, amet consectetur adipisicing elit. 
+                             Repellendus, nihil?</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="post__slide swiper-slide">
+                    <div class="post__image">
+                        <img src="./images/img-2.jpg" alt="">
+                        <div class="post__image-other">
+                           <a href="#">
+                                <i class="fas fa-calendar"></i>
+                                21st May, 2021
+                           </a>
+
+                           <a href="#">
+                                <i class="fas fa-user"></i>
+                                By Admin
+                           </a>
+                        </div>
+                    </div>
+                    <div class="post__content same__item-content">
+                        <h3>blog title goes here</h3>
+                        <p class = "same-content--text">Lorem ipsum dolor
+                             sit, amet consectetur adipisicing elit. 
+                             Repellendus, nihil?</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="post__slide swiper-slide">
+                    <div class="post__image">
+                        <img src="./images/img-3.jpg" alt="">
+                        <div class="post__image-other">
+                           <a href="#">
+                                <i class="fas fa-calendar"></i>
+                                21st May, 2021
+                           </a>
+
+                           <a href="#">
+                                <i class="fas fa-user"></i>
+                                By Admin
+                           </a>
+                        </div>
+                    </div>
+                    <div class="post__content same__item-content">
+                        <h3>blog title goes here</h3>
+                        <p class = "same-content--text">Lorem ipsum dolor
+                             sit, amet consectetur adipisicing elit. 
+                             Repellendus, nihil?</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="post__slide swiper-slide">
+                    <div class="post__image">
+                        <img src="./images/img-4.jpg" alt="">
+                        <div class="post__image-other">
+                           <a href="#">
+                                <i class="fas fa-calendar"></i>
+                                21st May, 2021
+                           </a>
+
+                           <a href="#">
+                                <i class="fas fa-user"></i>
+                                By Admin
+                           </a>
+                        </div>
+                    </div>
+                    <div class="post__content same__item-content">
+                        <h3>blog title goes here</h3>
+                        <p class = "same-content--text">Lorem ipsum dolor
+                             sit, amet consectetur adipisicing elit. 
+                             Repellendus, nihil?</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="post__slide swiper-slide">
+                    <div class="post__image">
+                        <img src="./images/img-5.jpg" alt="">
+                        <div class="post__image-other">
+                           <a href="#">
+                                <i class="fas fa-calendar"></i>
+                                21st May, 2021
+                           </a>
+
+                           <a href="#">
+                                <i class="fas fa-user"></i>
+                                By Admin
+                           </a>
+                        </div>
+                    </div>
+                    <div class="post__content same__item-content">
+                        <h3>blog title goes here</h3>
+                        <p class = "same-content--text">Lorem ipsum dolor
+                             sit, amet consectetur adipisicing elit. 
+                             Repellendus, nihil?</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="post__slide swiper-slide">
+                    <div class="post__image">
+                        <img src="./images/img-6.jpg" alt="">
+                        <div class="post__image-other">
+                           <a href="#">
+                                <i class="fas fa-calendar"></i>
+                                21st May, 2021
+                           </a>
+
+                           <a href="#">
+                                <i class="fas fa-user"></i>
+                                By Admin
+                           </a>
+                        </div>
+                    </div>
+                    <div class="post__content same__item-content">
+                        <h3>blog title goes here</h3>
+                        <p class = "same-content--text">Lorem ipsum dolor
+                             sit, amet consectetur adipisicing elit. 
+                             Repellendus, nihil?</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Our Daily Posts section end -->
+
+    <!-- Subscirbe Now section start -->
+    <section class="subscribe" id="subscribe">
+        <h3 class="home__heading">Subscirbe Now</h3>
+        <div class="subscribe-main">
+            <p>Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. 
+                Laboriosam Ipsam Repellat Nostrum Esse Officiis Unde Quisquam Corporis Doloremque Adipisci Similique!</p>
+            
+            <div class="subscribe__input">
+                <input type="text" placeholder="enter you email">
+                <a href="" class="subscribe-btn">subscribe</a>
+            </div>
+        </div>
+    </section>
+    <!-- Subscirbe Now section end -->
+
+    <!-- sponsor section start -->
+    <section class="sponsor">
+        <div class="sponsor-main swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="sponsor__slide swiper-slide">
+                    <img src="./images/client-logo-1.png" alt="">
+                </div>
+                <div class="sponsor__slide swiper-slide">
+                    <img src="./images/client-logo-2.png" alt="">
+                </div>
+                <div class="sponsor__slide swiper-slide">
+                    <img src="./images/client-logo-3.png" alt="">
+                </div>
+                <div class="sponsor__slide swiper-slide">
+                    <img src="./images/client-logo-4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sponsor section end -->
+<!-- HOME end -->
+
+<!-- FOOTER start-->
+    <section class="footer">
+        <div class="footer-main grid__row">
+            <div class="footer__item grid__column-25">
+                <h3>Quick Links</h3>
+                <a href="#home-slide" class="navbar__link navbar__home">Home</a>
+                <a href="#about" class="navbar__link navbar__about">About</a>
+                <a href="#shop" class="navbar__link navbar__shop">Shop</a>
+                <a href="#package" class="navbar__link navbar__package">Package</a>
+                <a href="#review" class="navbar__link navbar__review">Review</a>
+                <a href="#posts" class="navbar__link navbar__blogs">blogs</a>
+            </div>
+            <div class="footer__item grid__column-25">
+                <h3>Extra Links</h3>
+                <a href="#" class="navbar__link navbar__home">My Account</a>
+                <a href="#" class="navbar__link navbar__about">My Order</a>
+                <a href="#" class="navbar__link navbar__shop">My wishlist</a>
+                <a href="#" class="navbar__link navbar__package">Ask Questions</a>
+                <a href="#" class="navbar__link navbar__review">Terms Of Use</a>
+                <a href="#" class="navbar__link navbar__blogs">Privacy Policy</a>
+            </div>
+            <div class="footer__item-isLogo footer__item grid__column-25">
+                <h3>Contact Info</h3>
+                <a href="#" class="navbar__link navbar__home">
+                    <i class="fas fa-phone"></i><span>+123-456-7890</span>
+                </a>
+                <a href="#" class="navbar__link navbar__about">
+                    <i class="fas fa-phone"></i><span>+111-222-3333</span>
+                </a>
+                <a href="#" class="navbar__link navbar__shop">
+                    <i class="fas fa-envelope"></i><span>Shaikhanas@Gmail.com</span>
+                </a>
+                <a href="#" class="navbar__link navbar__package">
+                    <i class="fas fa-map"></i><span>Mumbai, India - 400104</span>
+                </a>
+            </div>
+            <div class="footer__item-isLogo footer__item grid__column-25">
+                <h3>Follow Us</h3>
+                <a href="#" class="navbar__link navbar__home">
+                    <i class="fab fa-facebook-f"></i><span>Facebook</span>
+                </a>
+                <a href="#" class="navbar__link navbar__about">
+                    <i class="fab fa-twitter"></i><span>Twitter</span>
+                </a>
+                <a href="#" class="navbar__link navbar__shop">
+                    <i class="fab fa-instagram"></i><span>instagram</span>
+                </a>
+                <a href="#" class="navbar__link navbar__package">
+                    <i class="fab fa-linkedin"></i><span>Linkedin</span>
+                </a>
+                <a href="#" class="navbar__link navbar__review">
+                    <i class="fab fa-github"></i><span>Github</span>
+                </a>
+            </div>
+        </div>
+        <h3>
+            Created By
+            <span>Mr. Web Designer</span>
+            | All Rights Reserved!
+        </h3>
+    </section>
+<!-- FOOTER end-->
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
